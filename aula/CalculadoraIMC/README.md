@@ -30,14 +30,15 @@ Além disso, utiliza **SLF4J** para geração de logs informativos, de aviso e d
 
 ## 📦 Estrutura do Projeto
 
-ExercicioAula3Dependencias
-├── src
-│ └── main
-│ └── java
-│ └── org.example
-│ └── CalculadoraIMC.java
-├── target
-│ └── ExercicioAula3Dependencias-1.0-SNAPSHOT.jar
+CalculadoraIMC/
+├── src/
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── example/
+│                   └── CalculadoraIMC.java
+├── target/
+│   └── CalculadoraIMC-1.0-SNAPSHOT.jar
 ├── pom.xml
 └── README.md
 
@@ -56,10 +57,16 @@ ExercicioAula3Dependencias
     git clone https://github.com/MariaRitaRR/C14-engenharia-de-software
 
 2. **Abra a Pasta**
-    cd ExercicioAula3Dependencias
+    cd CalculadoraIMC
 
 3. **Instale as Dependências**
     mvn clean install
+
+4. **Compile e Empacote o Projeto**
+    mvn clean package
+
+5.**Execute o programa**
+java -jar target/CalculadoraIMC-1.0-SNAPSHOT.jar
 
 
 
