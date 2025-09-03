@@ -79,4 +79,10 @@ Seu IMC é: 22.857142857142858
 Classificação: Peso normal
 
 
+## Regressão Detectada
 
+**Data:** 02/09/2025
+**Erro:** Alteração no limite superior do peso normal de 25 para 24
+**Testes que falharam:** 
+- testClassificarIMC_LimiteSuperiorPesoNormal()
+**Solução:** Reverter a alteração para manter o limite em 25 conforme padrão médico
